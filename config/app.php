@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'HugoChenPortfolio'),
 
     /*
     |--------------------------------------------------------------------------
@@ -169,6 +169,16 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
 
         /*
+         * Modules Service Providers...
+         */
+        Nwidart\Modules\LaravelModulesServiceProvider::class,
+
+        /*
+         * Themes Service Providers...
+         */
+        Igaster\LaravelTheme\themeServiceProvider::class,
+
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
@@ -177,6 +187,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        
     ],
 
     /*
@@ -225,6 +236,14 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        /*
+         * Module aliases
+         */
+        'Module' => Nwidart\Modules\Facades\Module::class,
+        /*
+         * Theme aliases
+         */
+        'Theme' => Igaster\LaravelTheme\Facades\Theme::class,
 
     ],
 
