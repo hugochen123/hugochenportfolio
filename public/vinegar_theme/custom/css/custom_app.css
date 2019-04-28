@@ -351,6 +351,19 @@ a:focus, a:hover, a:active {
   background-color: #18BC9C !important;
 }
 
+.bg-coffee {
+  background-image: url("../img/bg_coffee.jpg");
+  background-position: center; /* Center the image */
+}
+
+.bg-bear {
+  background-color: #18BC9C;
+  background-image: url("../img/bg_bear.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right bottom; /* Center the image */
+}
+
 .bg-secondary {
   background-color: #2C3E50 !important;
 }

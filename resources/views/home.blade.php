@@ -5,7 +5,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Hugo Chen</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -13,13 +13,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#footer">Contact</a>
           </li>
         </ul>
       </div>
@@ -27,14 +27,59 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead bg-primary text-white text-center">
+  <header class="masthead bg-coffee text-white text-center">
     <div class="container">
+    <div class="row">
+        <div class="col-md-5 col-lg-5">
       <img class="img-fluid mb-5 d-block mx-auto" src="{!! Theme::url('custom/img/profile.png') !!}" alt="">
-      <h1 class="text-uppercase mb-0">Start Bootstrap</h1>
+        </div>
+        <div class="col-md-7 col-lg-7">
+      <h1 class="text-uppercase mb-0">Unique Perspective</h1>
       <hr class="star-light">
-      <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2>
+      <h2 class="font-weight-light mb-0">Web Application Developer - Software Engineer</h2>
+        </div>
+        </div>
     </div>
   </header>
+
+  <!-- About Section -->
+  <section class="bg-bear text-white mb-0" id="about">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-white">About</h2>
+      <hr class="star-light mb-5">
+      <div class="row">
+        <div class="col-lg-8 m-auto">
+          <p class="lead">A fast learner and a passionate software developer with over four years of professional experience. Highly skilled in both front-end and back-end development. Well-versed in numerous programming languages including PHP, Java, MySQL and Node.js, and enjoy learning new languages and development techniques. Experienced in all stages of the development cycle for dynamic web applications. Delivered premium-quality applications that are still widely used and have achieved a good reputation among users.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+            <div class="text-center mt-4">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                    <a class="btn btn-outline-light btn-social text-center rounded" href="https://github.com/hugochen123" target="_blank">
+                        <i class="fab fa-fw fa-github"></i>
+                    </a>
+                    </li>
+                    <li class="list-inline-item">
+                    <a class="btn btn-outline-light btn-social text-center rounded" href="https://www.linkedin.com/in/hugo-chen-61b79596/" target="_blank">
+                        <i class="fab fa-fw fa-linkedin-in"></i>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4 mr-auto">
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" href="{{URL::asset('Download/Hugo_Chen-CV.pdf')}}" download>
+                <i class="fas fa-download mr-2"></i>
+                Download My Resume!
+                </a>
+            </div>
+        </div>
+       </div>
+    </div>
+  </section>
 
   <!-- Portfolio Grid Section -->
   <section class="portfolio" id="portfolio">
@@ -106,128 +151,32 @@
     </div>
   </section>
 
-  <!-- About Section -->
-  <section class="bg-primary text-white mb-0" id="about">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-white">About</h2>
-      <hr class="star-light mb-5">
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-        </div>
-      </div>
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="#">
-          <i class="fas fa-download mr-2"></i>
-          Download Now!
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-      <hr class="star-dark mb-5">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Phone Number</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <br>
-            <div id="success"></div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Footer -->
-  <footer class="footer text-center">
+  <footer class="footer text-center" id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 mb-5 mb-lg-0">
+        <div class="col-md-8 mb-5">
+          <h4 class="text-uppercase mb-4">About Freelancing</h4>
+          <p class="lead mb-0">I like the challenges from different freelancing works and I am happy to see people grow their business through my skills. Please don't hesitate to contact me if you have an exciting project and need extra resources. </p>
+        </div>
+        <div class="col-md-2 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
+          <p class="lead mb-0">3B Agnes Street
+            <br>Noble Park, VIC 3174</p>
         </div>
-        <div class="col-md-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-google-plus-g"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-dribbble"></i>
-              </a>
-            </li>
-          </ul>
+        <div class="col-md-2 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Phone</h4>
+          <p class="lead mb-0">+61 416 986 852
+            <br>(Business Hour Only)</p>
         </div>
-        <div class="col-md-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-        </div>
+        
       </div>
     </div>
   </footer>
 
   <div class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Your Website 2019</small>
+      <small>Copyright &copy; HugoChenPortfolio 2019</small>
     </div>
   </div>
 
