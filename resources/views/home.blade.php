@@ -116,7 +116,7 @@
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{!! URL::asset('img/portfolio/ticbox/ticbox_front.jpg') !!}" alt="">
+            <img class="img-fluid" src="{!! URL::asset('img/portfolio/ticbox/ticbox_front.JPG') !!}" alt="">
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
@@ -234,25 +234,25 @@
             </ul>
             <div class="tab-content" id="asapTabContent">
                 <div class="tab-pane fade show active" id="asap-task" role="tabpanel" aria-labelledby="asap-task-tab">
-                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/task_1.jpg') !!}" alt="">
+                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/task_1.JPG') !!}" alt="">
                     <p class="mb-5">ASAP (ALDI Store Application) was created out of the desire to help Store Management to execute bulletin information and ensure compliance within stores. It was designed to create a more intuitive 'just-in-time' communication between the Region and Stores and enable Store Management to be efficient and stay on top of the ever-growing need for compliance and accuracy. 
                     <br>
                     <br>ASAP is a web-based application for iPads which incorporates all information, previously sent to stores via the purchasing bulletins and attachments. Furthermore, it is capable of handling the product withdrawal procedure, displaying spaceman merchandising planograms and completing store specific compliance forms. Besides the objective to improve execution and streamline communication in stores, the ALDI typical characteristics of accountability and being responsible for action were incorporated into ASAP. 
                     </p>
-                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/task_2.jpg') !!}" alt="">
+                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/task_2.JPG') !!}" alt="">
                 </div>
                 <div class="tab-pane fade" id="asap-form" role="tabpanel" aria-labelledby="asap-form-tab">
-                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/compliance_1.jpg') !!}" alt="">
+                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/compliance_1.JPG') !!}" alt="">
                     <p class="mb-5">Compliance Tasks are a group of forms and checklists built by MindAtlas based on ALDI’s business requirements. Unlike Bulletin Task, Recurring Task and EPW, Compliance Tasks will be generated automatically for Store Managers without efforts from Regional Managers or Area Managers. 
                     <br>
                     <br>Besides, every checklist allows Store Manager to save before submitting, which gives SMs more flexibility on time management. Compliance Tasks can NOT be “overdue”. If a Compliance Task is not submitted before the due day, it will be marked with a dash ( - ).
                     <br>
                     <br>In the current system, Compliance Task will be audited and displayed on a Compliance Calendar. There are 5 basic Compliance Tasks. 
                     </p>
-                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/compliance_2.jpg') !!}" alt="">
+                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/compliance_2.JPG') !!}" alt="">
                 </div>
                 <div class="tab-pane fade" id="asap-print" role="tabpanel" aria-labelledby="asap-print-tab">
-                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/printing_1.jpg') !!}" alt="">
+                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/printing_1.JPG') !!}" alt="">
                     <p class="mb-5">ASAP allows Store Manager to print price card labels based on their daily tasks or searched by product code. After a single click, ASAP will use APIs from Printer Cloud Web Service to send all price card data in JSON.
                     <br>
                     <br>Price cards can be printed correctly based on Store Location, Date, Product Type and other necessary factors.<br>
@@ -261,7 +261,7 @@
                     <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/printing_2.png') !!}" alt="">
                 </div>
                 <div class="tab-pane fade" id="asap-pcp" role="tabpanel" aria-labelledby="asap-pcp-tab">
-                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/pcp_1.jpg') !!}" alt="">
+                    <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/asap/pcp_1.JPG') !!}" alt="">
                     <p class="mb-5">Daily tasks, compliance, product withdrawals, merchandising plans and library functions are going to be handled by the internal Store Task Management solution (STM).
 ASAP will become a Price Card Printing application in 2020.
 <br>
@@ -339,9 +339,9 @@ ASAP will become a Price Card Printing application in 2020.
             <span class="badge badge-success">jQuery</span>
             <span class="badge badge-success">Git</span>
             <hr class="mb-5">
-            <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/ticbox/ticbox_1.jpg') !!}" alt="">
+            <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/ticbox/ticbox_1.JPG') !!}" alt="">
             <p class="mb-5">Ticbox is a web application for business owners to manage their workplace policies and procedures. Employers use their admin account to create and edit policy with templates. Based on the hierarchy of the company, employees are required to review and sign policy within their own user group. I was a part of the Ticbox development team and my main duty was to implement a policy editor with JavaScript. I also implemented some UI designs in the front-end. </p>
-            <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/ticbox/ticbox_2.jpg') !!}" alt="">
+            <img class="img-fluid mb-5" src="{!! URL::asset('img/portfolio/ticbox/ticbox_2.JPG') !!}" alt="">
             <a class="btn btn-secondary btn-lg mr-2 rounded-pill" href="https://ticbox.com.au/" target="_blank">
               Live Demo</a>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
